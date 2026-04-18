@@ -1,0 +1,33 @@
+{
+  "name": "strawberry-sdk",
+  "version": "1.0.0",
+  "description": "Node.js SDK for Strawberry analytics, error tracking, logs, and LLM call observability. Stdlib-only, PII-redacting, circuit-breakered.",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "check": "node -c src/index.js"
+  },
+  "keywords": [
+    "analytics",
+    "observability",
+    "error-tracking",
+    "logging",
+    "llm",
+    "strawberry"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steventruong/strawberry-node.git"
+  },
+  "homepage": "https://github.com/steventruong/strawberry-node",
+  "bugs": "https://github.com/steventruong/strawberry-node/issues"
+}
