@@ -15,8 +15,10 @@ Features:
 ## Install
 
 ```bash
-npm install strawberry-sdk
+npm install github:steventruong/strawberry-node#v1.0.0
 ```
+
+Requires Node 18+.
 
 ## Quick start
 
